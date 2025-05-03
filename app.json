@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Moment AI",
+    "slug": "moment-ai",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/custom-app-icon.png",
+    "scheme": "momentai",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sprynaillc.momentai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/custom-adaptive-icon.png",
+        "backgroundColor": "#121726"
+      },
+      "package": "com.sprynaillc.momentai"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/custom-favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/custom-splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#121726"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "cleanInstall": true
+    }
+  }
+}
